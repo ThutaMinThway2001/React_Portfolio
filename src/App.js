@@ -1,10 +1,12 @@
 import React from "react";
-import Intro from "./PortfolioContainer/Intro";
+import About from "./PortfolioContainer/About/About";
+import Intro from "./PortfolioContainer/Intro/Intro";
 
 const App = (props) => {
   return (
     <div className="App">
       <Intro />
+      <About />
     </div>
   );
 };
